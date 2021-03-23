@@ -8,35 +8,35 @@ import all from '../views/all.vue'
 Vue.use(VueRouter)
 
 const routes = [{
-    path: "/",
-    redirect: "/demo"
+  path: '/',
+  redirect: '/demo'
 }, {
-    path: "/demo",
-    name: "demo",
-    component: demo,
-    children: [{
-            path: "/goods",
-            name: "goods",
-            component: goods
-        },
-        {
-            path: "/outIn",
-            name: "outIn",
-            component: outIn
-        }, {
-            path: "/all",
-            name: "all",
-            component: all
-        }, {
-            path: "/goods",
-            name: "goods",
-            component: goods
-        }
-    ]
+  path: '/demo',
+  name: 'demo',
+  component: demo,
+  children: [{
+    path: '/goods',
+    name: 'goods',
+    component: goods
+  },
+  {
+    path: '/outIn',
+    name: 'outIn',
+    component: outIn
+  }, {
+    path: '/all',
+    name: 'all',
+    component: all
+  }, {
+    path: '/goods',
+    name: 'goods',
+    component: goods
+  }
+  ]
 }]
 
 const router = new VueRouter({
-    routes
+  routes
 })
 
 export default router

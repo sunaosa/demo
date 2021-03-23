@@ -1,20 +1,19 @@
 import Vue from 'vue'
 import {
-    Button,
-    Menu,
-    Submenu,
-    MenuItem,
-    MenuItemGroup,
-    Row,
-    Col,
-    Container,
-    Header,
-    Aside,
-    Main,
-    Table,
-    TableColumn,
+  Button,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Row,
+  Col,
+  Container,
+  Header,
+  Aside,
+  Main,
+  Table,
+  TableColumn
 } from 'element-ui'
-
 Vue.use(Button)
 Vue.use(Menu)
 Vue.use(Submenu)
